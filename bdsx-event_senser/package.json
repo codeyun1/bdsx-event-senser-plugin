@@ -1,0 +1,21 @@
+{
+    "name": "bdsx-event_senser",
+    "version": "1.0.0",
+    "description": "made by codeyun1, ESP",
+    "main": "index.js",
+    "bdsxPlugin": true,
+    "scripts" : {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "prepare": "tsc || exit 0"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "codeyun1",
+        "email": "codemc1471@gmail.com",
+        "url": "https://github.com/codeyun1"
+    },
+    "devDependencies": {
+        "bdsx": "file:../bdsx"
+    }
+}
